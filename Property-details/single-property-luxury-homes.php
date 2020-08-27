@@ -38,6 +38,7 @@ if ($layout): foreach ($layout as $key=>$value) {
 
         case 'floor_plans':
             get_template_part('property-details/luxury-homes/floor-plans');
+            get_template_part('property-details/luxury-homes/current-status');
             break;
 
         case 'video':
