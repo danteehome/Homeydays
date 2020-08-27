@@ -1,0 +1,55 @@
+Aug 17 2020 
+[New] WordPress 5.5 compatibility 
+[New] Design property detail page with Elementor Free or Pro. Developed New 37 widgets for property detail page design. Screenshot https://tppr.me/KytV1
+[New] Section gallery for property detail page. Screenshots https://tppr.me/UefSC and https://tppr.me/Bwgqf
+[New] WhatsApp contact button for property agent, now buyer can contact agent via whatsapp too. Setting https://tppr.me/6HOds
+[New] Option to enabled range inputs for bedrooms, bathrooms and rooms fields. You can user can add value like ( 2 - 4, 3 - 5) or ( 2,3,4 ) for  bedrooms, bathrooms and rooms  and make them searchable too. Screenshot https://tppr.me/75CPk
+[New] Open Street Map properties elementor widget
+[New] Overview section data composer with custom fields support. Screenshot https://tppr.me/tXQE0
+[New] Open Street Map radius circle instead of marker for property detail map.
+[New] Checkbox to accept terms of user, GDPR and Privacy policy
+[New] Made theme options overwrite-able in child theme by overwrite file in same folder as parent
+[New] Improve Inquiry form for CRM, added Min/Max fields for price, beds, baths, area etc
+[New] Added phone number token for register user email, now %user_phone_register can be used to get registered user phone in email content.
+[New] Featured Property and login to view from front end for admin. Screenshot https://tppr.me/ySt8t
+[New] Disclaimer for property. Screenshots https://tppr.me/flU9f and https://tppr.me/sxQvi
+[New] BuiltIn rooms field for add new property, listing meta, searches and detail
+[New] Keyword search field auto suggestions for Elementor search builder
+[New] Social buttons for register form.
+[New] View Property button for edit property screen in front-end
+[New] Number field type for field builder 
+[New] Removed FontAwesome 4 and updated all icons usage to FontAwesome 5.
+[New] Added Property agent and schedule tour email in Email management, now these emails content can be managed from Theme Options
+[New] Click to Call for agent phone number on property agent form
+[New] Added wp editor for profile about me textarea.
+[New] Options to show/hide property agent phone, mobile, skype, whatsapp
+[New] Options to manage number of columns for property details, address and features section. Theme Options -> Property Detail Page https://tppr.me/Sl1af
+[New] Internal Messages system 
+[Improved] Loading speed, testing houzez with more then 100k listings and improved all code which made theme slow.  
+[Improved] Property detail popup gallery, synchronized it to show current clicked image.
+[Improved] Email management code, also now email accept line break in content  
+[Improved] Integrated mortgage calculator with currency switcher
+[Improved] Searches price range slider and integrated it with currency switcher.
+[Improved] Menu behavior for mobile screens, now menu close when user taps on rest of the screen.
+[Improved] Houzez CRM plugin
+[Improved] Add New deal code in CRM
+[Improved] Number of styles and scripts files included on page load to optimize performance.
+[Improved] Search builder tabs, now search show price according to for rent, for sale status.
+[Improved] Email Matching Submission email template
+[Improved] Social logic profile photo code.
+[Fixed] Currency switcher decimal points
+[Fixed] Emails formatting issue
+[Fixed] Multi-select, checkboxes fields not show all data on property detail page.
+[Fixed] Logged in user not loading after logging in on some servers because of cache. 
+[Fixed] Listing tabs not  redirect on blog page when use on homepage
+[Fixed] Expired properties started show on taxonomy pages in v2.1.2
+[Fixed] Sub-properties for add new property from front-end
+[Fixed] Agents categories and cities not delete-able from admin panel 
+[Fixed] Custom PlaceHolder not show for auto complete search listings 
+[Fixed] Membership issue for not loggedIn users when Woocommerce payment activated 
+[Fixed] Mortgage calculator currency not show when multi-currency enabled
+[Fixed] Other features in search not keep selected after search
+[Fixed] Private note placeholder 
+[Fixed] Zip Code not show in email content for inquiry form 
+[Fixed] Team link in the Team widget
+[Updated] Houzez theme functionality and houzez login register plugins. Update required after update theme.
