@@ -1,4 +1,4 @@
-<?php
+<?php // this is the modified page based on floor-plans to create an occupy status block.
 $floor_plans          = get_post_meta( get_the_ID(), 'floor_plans', true );
 
 if( !empty( $floor_plans ) ) {

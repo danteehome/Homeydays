@@ -69,7 +69,7 @@ if( have_posts() ): while( have_posts() ): the_post(); ?>
         } elseif($top_area == 'v2') {
             get_template_part('property-details/top-area-v2');
 
-        } elseif( ($top_area == 'v3' || $top_area == 'v4') && $property_layout == 'v2' ) {
+        } elseif( ($top_area == 'v3' || $top_area == 'v4') && $property_layout == 'v2'||$property_layout == 'building' ) {
             echo '<div class="container">';
             get_template_part('property-details/top-area-v3-4');
             echo '</div>';
@@ -98,7 +98,11 @@ if( have_posts() ): while( have_posts() ): the_post(); ?>
                 <?php get_template_part('property-details/mobile-view'); ?>
                 <?php get_template_part( 'property-details/single-property-luxury-homes'); ?>
             </div>
-        <?php } else { ?>
+        <?php }else if( $property_layout == 'building'){  ?>
+            <div class="property-view full-width-property-view">
+                <?php get_template_part('property-details/mobile-view'); ?>
+                <?php get_template_part( 'property-details/building-template'); ?>
+                <?php } else { ?>
 
         <div class="container">
             <?php
