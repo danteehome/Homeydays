@@ -4,6 +4,60 @@
 */
 ?>
 <html>
+<?php $url1=" https://beyond.3dnest.cn/house/?m=61ea6918_rnDU_b6f9"?>
+<?php $url2=" https://yun.kujiale.com/design/3FO4D5L07EJD/airoaming"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <head>
     <meta charset="UTF-8">
@@ -21,7 +75,7 @@
 
     .iframebox {
         border: none;
-        overflow:hidden;
+        overflow: hidden;
         width: 100%;
         height: 100%
     }
@@ -40,34 +94,43 @@
     } */
 
 
-    /*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
-
-    @media screen and (max-width:1023px) {
+    /* ----------- iPad Pro ----------- */
+    /* Portrait and Landscape */
+    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
         .double-container {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
+            -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            height: 100%;
+            -ms-flex-direction: row;
+            flex-direction: row;
             width: 100%;
-            overflow: hidden;
+            height: 100%;
         }
-
     }
 
-
-    @media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
-
+    /* Portrait */
+    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
         .double-container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /* Landscape */
+    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+        .double-container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
             -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
             -ms-flex-direction: row;
@@ -78,39 +141,12 @@
 
     }
 
-    @media screen and (min-width:1px) and (max-width:767px) and (orientation:landscape) {
-        .double-container {
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-            flex-direction: row;
-            width: 100%;
-            height: 100%;
-        }
-    }
 
-    @media screen and (min-width:1024px) {
-        .double-container {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-        }
 
-    }
-
-    .container1{
-        height:100%;
-        width: 100%;
-    }
+    .container1,
     .container2 {
         height: 100%;
-        width: 100%;
+        width: 50%;
     }
     </style>
 </head>
@@ -118,8 +154,8 @@
 <body scrolling="no">
     <div class=double-container>
         <div class="container1">
-            <iframe class="iframebox" src="https://beyond.3dnest.cn/house/?m=61ea6918_rnDU_b6f9" frameborder="0" allowfullscreen="0"
-                scrolling="no"></iframe>
+            <iframe class="iframebox" src="<?php echo $url1?>" frameborder="0" allowfullscreen="0" scrolling="no"
+                style="overflow:hidden;height:100%;width:100%; "></iframe>
         </div>
         <!-- <div class="agent-container">
             <p>Agent Info</p>
@@ -127,8 +163,8 @@
 
         </div> -->
         <div class="container2">
-            <iframe class="iframebox" src="https://yun.kujiale.com/design/3FO4D5L07EJD/airoaming" frameborder="0" allowfullscreen="0"
-                scrolling="no"></iframe>
+            <iframe class="iframebox" src="<?php echo $url2?>" frameborder="0" allowfullscreen="0" scrolling="no"
+                style="overflow:hidden;height:100%;width:100%; "></iframe>
         </div>
     </div>
 </body>
