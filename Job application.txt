@@ -1,0 +1,55 @@
+About Us:
+
+W-axis technology is a fast growing, award-winning technology start-up, with the mission to empower brands and companies to enter and expand in Asia, particularly in China market. We see ourselves as a bridge having the vision to connect our clients to the world with professional and optimal products.
+
+We’re currently looking for passionate and motivated candidates as frontend/backend developer to work along with the Chief Developer and fellow engineers in an exciting environment.
+
+
+
+What will you be doing?
+
+· Design and development of backend services / systems / platforms used by our products and our user
+
+· Leverage and integrate existing system(s) and customize them where necessary.
+
+· Write high-quality, clean, elegant, and maintainable code.
+
+· Build common libraries
+
+· Analyse requirements, design and develop functionalities based on the product requirements.
+
+· Understand the product thoroughly, constantly optimise the product, identify and fix problems, improve stability and user experience.
+
+· Design and implement various supporting tools as needed.
+
+· Collaborate with other engineers, product managers, user experience designers, and operations engineers to build features and products.
+
+
+
+You may be a good fit if you have:
+
+· Bachelor’s or higher Degree in Computer Science or related fields.
+
+· Proficiency in Web development and familiarity with Magento.
+
+· Strong and hands-on experience with at least one of the programming languages: Python, C#, JaveScript.
+
+· Prior experience with WeChat and WeChat mini program.
+
+· Prior experience with modern cloud stacks (AWS, GCP, Azure), container tech (docker, kubernetes) & devops with strong CI/CD mentality.
+
+· Strong understanding of software engineering best practices, good coding standards, testing and maintenance.
+
+· Additional knowledge in system design.
+
+
+
+What can you expect from us?
+
+· Work with a tight-knit open-minded team, you will take the lead and have the ownership of your project.
+
+· Grow with a fast-paced start-up, you will be given exposures and opportunities to develop personally and professionally if you have a strong interest in programming and are willing to pick up new knowledge.
+
+
+
+Interested applicants, please send in your CV to careers@w-axis.net with the subject line as – “Job Application - Backend Developer”.

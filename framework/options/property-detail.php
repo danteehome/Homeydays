@@ -1,6 +1,6 @@
 <?php
 global $houzez_opt_name, $custom_fields_array;
-
+//Houzez Theme Option panel.
 Redux::setSection( $houzez_opt_name, array(
     'title'  => esc_html__( 'Property Detail', 'houzez' ),
     'id'     => 'property-page',
